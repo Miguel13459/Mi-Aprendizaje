@@ -1,0 +1,527 @@
+1
+00:00:00,222 --> 00:00:05,461
+Bem-vindo ao treinamento Kotlin.
+Surpresa!
+
+2
+00:00:05,507 --> 00:00:07,931
+-Você aprenderá sobre Kotlin!
+-Kotlin!
+
+3
+00:00:07,977 --> 00:00:09,619
+Olá. Eu me chamo
+Sean McQuillan,
+
+4
+00:00:09,665 --> 00:00:11,587
+sou especialista em Kotlin
+no Google.
+
+5
+00:00:11,633 --> 00:00:15,977
+Adoro o Kotlin porque ele permite
+construir recursos com menos código.
+
+6
+00:00:16,023 --> 00:00:19,456
+Quando não estou trabalhando
+com Kotlin, estou tocando piano
+
+7
+00:00:19,502 --> 00:00:22,621
+ou fazendo crochê.
+O Alex me convidou,
+
+8
+00:00:22,667 --> 00:00:25,437
+e estou muito animado
+em dividir o Kotlin com você.
+
+9
+00:00:25,483 --> 00:00:26,852
+Olá, eu me chamo Alex,
+
+10
+00:00:26,898 --> 00:00:29,917
+sou desenvolvedor de treinamento
+e de programas no Google.
+
+11
+00:00:29,963 --> 00:00:32,989
+Meu trabalho
+é aprender coisas novas
+
+12
+00:00:33,035 --> 00:00:34,940
+e explicar para as pessoas.
+
+13
+00:00:34,986 --> 00:00:39,417
+Atualmente estou me tornando
+especialista em Kotlin, como você.
+
+14
+00:00:39,463 --> 00:00:42,139
+Eu tive muitas
+dúvidas ao criar o curso,
+
+15
+00:00:42,185 --> 00:00:47,721
+e, ao responder às dúvidas,
+com muita ajuda do Sean,
+
+16
+00:00:47,767 --> 00:00:51,330
+criamos uma jornada tranquila
+e divertida.
+
+17
+00:00:51,376 --> 00:00:53,066
+Criou algo engraçado?
+
+18
+00:00:53,112 --> 00:00:56,210
+Falaremos sobre isso.
+Por que não olha em volta?
+
+19
+00:00:57,594 --> 00:00:58,818
+Antes de começarmos,
+
+20
+00:00:58,864 --> 00:01:01,018
+vejamos se você está
+no lugar certo.
+
+21
+00:01:01,064 --> 00:01:03,903
+Este curso é para alunos
+que conhecem uma linguagem
+
+22
+00:01:03,949 --> 00:01:07,774
+moderna, orientada a objetos
+e de tipagem estática.
+
+23
+00:01:07,820 --> 00:01:11,447
+É melhor ter experiência
+com programação
+
+24
+00:01:11,493 --> 00:01:14,008
+e estar familiarizado
+com um IDE,
+
+25
+00:01:14,054 --> 00:01:17,406
+como o IntelliJ
+ou o Android Studio.
+
+26
+00:01:17,452 --> 00:01:20,789
+Você deve saber o básico
+de programação
+
+27
+00:01:20,835 --> 00:01:22,686
+em uma linguagem
+orientada a objeto.
+
+28
+00:01:22,732 --> 00:01:25,065
+Deve estar familiarizado
+com classes, métodos
+
+29
+00:01:25,111 --> 00:01:27,920
+e manipulação de exceções
+em pelo menos uma linguagem.
+
+30
+00:01:27,966 --> 00:01:30,296
+Não é preciso ser
+especialista em Java,
+
+31
+00:01:30,342 --> 00:01:34,591
+basta conhecer qualquer
+linguagem orientada a objetos.
+
+32
+00:01:34,637 --> 00:01:37,712
+Se você souber o que é
+programação funcional e lambdas,
+
+33
+00:01:37,758 --> 00:01:39,639
+será melhor ainda.
+
+34
+00:01:40,263 --> 00:01:44,375
+Ofereceremos um curso que permite
+que um desenvolvedor experiente
+
+35
+00:01:44,421 --> 00:01:48,343
+aprenda sobre o Kotlin sem precisar
+ler outro livro com conceitos
+
+36
+00:01:48,389 --> 00:01:50,190
+de programação estruturada.
+
+37
+00:01:50,236 --> 00:01:52,879
+O Kotlin é uma linguagem
+expressiva de programação
+
+38
+00:01:52,925 --> 00:01:57,074
+com um sistema de tipagem forte,
+que apresenta inferência de tipos.
+
+39
+00:01:57,120 --> 00:02:01,599
+Ele possui lambdas, co-rotinas,
+propriedades e outros recursos
+
+40
+00:02:01,645 --> 00:02:04,631
+que permitem compor menos códigos
+com menos erros.
+
+41
+00:02:04,677 --> 00:02:07,215
+Ele começou a decolar
+recentemente,
+
+42
+00:02:07,261 --> 00:02:10,487
+mas está no mercado
+desde 2011
+
+43
+00:02:10,533 --> 00:02:12,766
+e se tornou um código aberto
+em 2012.
+
+44
+00:02:12,812 --> 00:02:17,503
+Ele foi desenvolvido pela JetBrains
+e chegou à versão 1.0 em 2016.
+
+45
+00:02:17,549 --> 00:02:21,495
+Desde 2017, o Kotlin se tornou
+uma linguagem oficialmente aceita
+
+46
+00:02:21,541 --> 00:02:23,399
+na construção
+de aplicativos Android
+
+47
+00:02:23,445 --> 00:02:28,255
+e é usado no IntelliJ
+e no Android Studio 3.0,
+
+48
+00:02:28,301 --> 00:02:30,397
+e posteriores.
+
+49
+00:02:31,118 --> 00:02:35,644
+ANDROID ANUNCIA SUPORTE
+PARA KOTLIN
+
+50
+00:02:35,690 --> 00:02:37,757
+Me perguntaram
+como é usar Kotlin,
+
+51
+00:02:37,803 --> 00:02:40,798
+e eu precisei perguntar
+quanto tempo a pessoa tinha,
+
+52
+00:02:40,844 --> 00:02:43,348
+porque eu poderia passar
+uma hora falando.
+
+53
+00:02:43,394 --> 00:02:46,525
+Eu e minha equipe convencemos
+a pessoa a usar o Kotlin.
+
+54
+00:02:46,571 --> 00:02:48,534
+Quando começamos
+a usar o Kotlin,
+
+55
+00:02:48,580 --> 00:02:51,408
+vimos que é uma linguagem
+de programação linda,
+
+56
+00:02:51,454 --> 00:02:52,993
+concisa e expressiva.
+
+57
+00:02:53,039 --> 00:02:55,849
+É difícil escolher
+um recurso em especial,
+
+58
+00:02:55,895 --> 00:02:58,384
+porque há tantos,
+e eu adoro tudo.
+
+59
+00:02:58,430 --> 00:03:00,583
+Existe muita empolgação
+em relação ao Kotlin,
+
+60
+00:03:00,629 --> 00:03:02,759
+e vou dizer alguns motivos.
+
+61
+00:03:02,805 --> 00:03:05,806
+Vamos falar sobre
+NullPointerExceptions.
+
+62
+00:03:05,852 --> 00:03:08,391
+Sabemos que essas exceções
+são ruins
+
+63
+00:03:08,437 --> 00:03:12,222
+porque são responsáveis
+por grandes perdas financeiras,
+
+64
+00:03:12,268 --> 00:03:14,455
+por fazer
+o computador travar
+
+65
+00:03:14,501 --> 00:03:18,383
+e por horas incontáveis
+de depuração.
+
+66
+00:03:18,429 --> 00:03:21,982
+Para tornar nossas vidas
+muito mais prazerosas e seguras,
+
+67
+00:03:22,028 --> 00:03:26,271
+o Kotlin distingue os tipos de dados
+nulos e não nulos.
+
+68
+00:03:26,317 --> 00:03:29,518
+Isso elimina muitos erros
+no tempo de compilação.
+
+69
+00:03:29,564 --> 00:03:31,622
+-Isso não é legal?
+-É, sim.
+
+70
+00:03:31,668 --> 00:03:34,118
+Mas há mais.
+
+71
+00:03:34,164 --> 00:03:37,365
+O código Kotlin
+é muito conciso.
+
+72
+00:03:37,411 --> 00:03:41,551
+Por exemplo, o código boilerplate
+precisa ser digitado
+
+73
+00:03:41,597 --> 00:03:45,070
+de forma que não afete a forma
+como o aplicativo funciona.
+
+74
+00:03:45,116 --> 00:03:49,855
+Mas o Kotlin cuida
+do código boilerplate.
+
+75
+00:03:49,901 --> 00:03:53,196
+O Kotlin remove
+muitos dos códigos boilerplate
+
+76
+00:03:53,242 --> 00:03:55,772
+e também foi desenvolvido
+para legibilidade.
+
+77
+00:03:55,818 --> 00:03:59,781
+Isso significa que o código não terá
+nenhum efeito colateral oculto.
+
+78
+00:03:59,827 --> 00:04:02,932
+A remoção do boilerplate
+e o aprimoramento da legibilidade
+
+79
+00:04:02,978 --> 00:04:05,004
+às vezes entram em conflito
+
+80
+00:04:05,050 --> 00:04:08,876
+e, quando os projetistas do Kotlin
+tomaram decisões como essa,
+
+81
+00:04:08,922 --> 00:04:11,067
+eles sempre privilegiaram
+a legibilidade.
+
+82
+00:04:11,113 --> 00:04:14,555
+Eu chamo isso
+de boilerplates suficientes.
+
+83
+00:04:14,601 --> 00:04:18,381
+O Kotlin possui construções
+de objeto e funcionais.
+
+84
+00:04:18,427 --> 00:04:23,677
+Falando de classes, quantas
+classes get e set você já compôs?
+
+85
+00:04:23,723 --> 00:04:26,524
+Bem, nunca mais!
+
+86
+00:04:26,570 --> 00:04:31,405
+No Kotlin, o compilador
+faz isso para você, e sem erros.
+
+87
+00:04:31,451 --> 00:04:35,748
+O Kotlin compila para podermos
+usar o Java no Kotlin.
+
+88
+00:04:35,794 --> 00:04:39,565
+Assim poderemos utilizar
+as bibliotecas do Java.
+
+89
+00:04:39,611 --> 00:04:42,412
+E isso também significa
+que podemos utilizar o Kotlin
+
+90
+00:04:42,458 --> 00:04:46,333
+em um projeto Java existente,
+sem precisar migrar tudo.
+
+91
+00:04:46,379 --> 00:04:49,652
+-E isso é um grande avanço.
+-Mas se você quiser migrar,
+
+92
+00:04:49,698 --> 00:04:54,197
+o Android Studio e o IntelliJ
+fornecem um ótimo conversor.
+
+93
+00:04:54,243 --> 00:04:58,764
+Se você não sabe programar
+na linguagem Java,
+
+94
+00:04:58,810 --> 00:05:00,006
+não se preocupe.
+
+95
+00:05:00,052 --> 00:05:02,645
+Não precisamos disso
+para aprender sobre o Kotlin.
+
+96
+00:05:02,691 --> 00:05:04,914
+Este curso foi projetado
+para programadores
+
+97
+00:05:04,960 --> 00:05:07,098
+com experiência
+em qualquer linguagem.
+
+98
+00:05:07,144 --> 00:05:10,385
+Neste curso, utilizaremos
+IntelliJ, da JetBrains,
+
+99
+00:05:10,431 --> 00:05:11,801
+os criadores do Kotlin.
+
+100
+00:05:11,847 --> 00:05:15,897
+Tudo que precisamos para trabalhar
+com o Kotlin está incluso no IDE.
+
+101
+00:05:15,943 --> 00:05:17,738
+Para aprimorarmos as coisas,
+
+102
+00:05:17,784 --> 00:05:21,801
+em vez de construirmos um aplicativo
+de clima, de lista de compras
+
+103
+00:05:21,847 --> 00:05:23,264
+ou de bate-papo,
+
+104
+00:05:23,310 --> 00:05:25,577
+nós construiremos
+um aquário.
+
+105
+00:05:25,623 --> 00:05:27,664
+-No Kotlin.
+-É claro!
+
+106
+00:05:27,710 --> 00:05:31,961
+Instale o IDE seguindo os passos
+do próximo nó de texto.
+
+107
+00:05:32,007 --> 00:05:35,009
+Veremos você quando estiver pronto
+para escrever códigos.
+
+108
+00:05:35,055 --> 00:05:38,514
+OLÁ, AQUÁRIO.
+
+109
+00:06:05,316 --> 00:06:08,124
+OLÁ, KOTLIN.
+

@@ -1,0 +1,18 @@
+1
+00:00:00,249 --> 00:00:03,204
+Essas são as ferramentas
+de trabalho do Kotlin.
+
+2
+00:00:03,250 --> 00:00:04,571
+Na próxima aula,
+
+3
+00:00:04,617 --> 00:00:06,804
+usaremos o intérprete Kotlin
+
+4
+00:00:06,850 --> 00:00:09,337
+para vermos os recursos
+básicos da linguagem.
+

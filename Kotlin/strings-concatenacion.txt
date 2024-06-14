@@ -1,0 +1,16 @@
+val customers = 10
+ println("There are $customers customers\n") // There are 10 customers
+// tú puedes poner ${} para agregar algun otro valor o suma de operación en la
+oración
+ println("There are ${customers + 1} customers") // There are 10 customers
+
+***practice***
+
+fun main() {
+    val name = "Mary"
+    val age = 20
+    val conc = "$name is $age years old"
+    println(conc)
+}
+
+main()

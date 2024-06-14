@@ -1,0 +1,212 @@
+1
+00:00:00,303 --> 00:00:02,805
+Existem passos
+para configurar um projeto.
+
+2
+00:00:02,851 --> 00:00:07,016
+Caso você não tenha um JDK,
+o kit de desenvolvimento Java,
+
+3
+00:00:07,062 --> 00:00:10,840
+instale um JDK
+antes de iniciar o IntelliJ.
+
+4
+00:00:10,886 --> 00:00:14,689
+Ao iniciar o IntelliJ, passamos
+pelo assistente de configurações.
+
+5
+00:00:14,735 --> 00:00:16,856
+As opções padrões
+geralmente servem.
+
+6
+00:00:16,902 --> 00:00:18,720
+Eu prefiro o tema Darcula,
+
+7
+00:00:18,766 --> 00:00:20,704
+mas escolha
+a opção que desejar.
+
+8
+00:00:20,750 --> 00:00:22,567
+Após passar pelo assistente,
+
+9
+00:00:22,613 --> 00:00:25,143
+você verá uma tela de boas-vindas
+como esta.
+
+10
+00:00:25,189 --> 00:00:26,748
+Criaremos um projeto Kotlin,
+
+11
+00:00:26,794 --> 00:00:29,498
+para que IntelliJ saiba
+que estamos usando o Kotlin.
+
+12
+00:00:29,544 --> 00:00:31,487
+Para isso, crie um projeto,
+
+13
+00:00:31,533 --> 00:00:34,039
+selecione Kotlin
+na navegação à esquerda,
+
+14
+00:00:34,085 --> 00:00:36,735
+selecione Kotlin/JVM,
+no painel à direita,
+
+15
+00:00:36,781 --> 00:00:40,255
+nomeie o projeto como "Hello Kotlin"
+e clique em "Finish".
+
+16
+00:00:40,301 --> 00:00:43,720
+Ao terminar, teremos um projeto
+que executará o Kotlin.
+
+17
+00:00:44,600 --> 00:00:47,951
+Agora que estamos no projeto,
+acessamos o REPL Kotlin,
+
+18
+00:00:47,997 --> 00:00:50,328
+o read-eval-print loop.
+
+19
+00:00:50,374 --> 00:00:54,759
+Ao contrário do compilador,
+o REPL avalia o código digitado
+
+20
+00:00:54,805 --> 00:00:57,159
+logo após darmos Cmd+Enter.
+
+21
+00:00:57,205 --> 00:01:01,544
+Ele está em "Tools",
+"Kotlin" e "REPL".
+
+22
+00:01:02,344 --> 00:01:06,543
+Como é tradição,
+começamos com "Hello World".
+
+23
+00:01:06,589 --> 00:01:10,544
+Digite ou cole o código
+da função printHello no REPL
+
+24
+00:01:10,590 --> 00:01:15,088
+e pressione Ctrl+Enter
+ou Cmd+Enter, no Mac.
+
+25
+00:01:15,905 --> 00:01:19,080
+O código também está
+nas notas abaixo do vídeo.
+
+26
+00:01:19,126 --> 00:01:22,197
+Para executar o código,
+digite printHello
+
+27
+00:01:22,243 --> 00:01:24,551
+e Ctrl ou Cmd+Enter.
+
+28
+00:01:25,166 --> 00:01:28,846
+Viu o resultado? Prontinho.
+
+29
+00:01:28,892 --> 00:01:33,068
+Acabamos de escrever e executar
+nosso primeiro código Kotlin.
+
+30
+00:01:33,114 --> 00:01:34,669
+Vamos observar isso.
+
+31
+00:01:34,715 --> 00:01:37,093
+A palavra-chave fun designa
+uma função
+
+32
+00:01:37,139 --> 00:01:40,698
+seguida pelo nome da função.
+
+33
+00:01:40,744 --> 00:01:43,156
+Isso é seguido
+por um conjunto de parênteses,
+
+34
+00:01:43,202 --> 00:01:44,773
+nos quais ficam
+os argumentos.
+
+35
+00:01:44,819 --> 00:01:47,772
+Essa função não possui
+nenhum argumento.
+
+36
+00:01:47,818 --> 00:01:50,365
+A seguir, temos as chaves,
+
+37
+00:01:51,141 --> 00:01:53,812
+que enquadram
+o corpo da função.
+
+38
+00:01:53,858 --> 00:01:56,996
+Dentro da função,
+podemos fazer chamadas.
+
+39
+00:01:57,042 --> 00:02:01,525
+Esta chamada é para println,
+que imprime uma linha de texto.
+
+40
+00:02:01,571 --> 00:02:04,892
+Estamos imprimindo
+a string "Hello World".
+
+41
+00:02:04,938 --> 00:02:07,804
+Não precisamos especificar
+um tipo de retorno,
+
+42
+00:02:07,850 --> 00:02:10,557
+pois não estamos retornando nada
+na função,
+
+43
+00:02:10,603 --> 00:02:14,092
+e você deve ter percebido
+que não há pontuações
+
+44
+00:02:14,138 --> 00:02:16,100
+no fim das instruções.
+
+45
+00:02:16,146 --> 00:02:17,970
+Nada de ponto e vírgula.
+

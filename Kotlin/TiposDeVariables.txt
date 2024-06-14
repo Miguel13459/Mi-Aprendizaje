@@ -1,0 +1,66 @@
+Cada variable y estructura de datos en Kotlin tiene un tipo de datos. 
+Los tipos de datos son importantes porque le dicen al compilador qué puede hacer
+con esa variable o estructura de datos. Es decir, qué funciones y propiedades tiene.
+
+En el último capítulo, Kotlin pudo decir en el ejemplo anterior que customerstiene 
+tipo: Int. La capacidad de Kotlin para inferir el tipo de datos se llama inferencia
+ de tipo . customersse le asigna un valor entero. De esto, Kotlin infiere que 
+customers tiene un tipo de datos numérico: Int. Como resultado,
+ el compilador sabe que puedes realizar operaciones aritméticas con customers:
+
+var customers = 10
+ 
+ // Some customers leave the queue
+ customers = 8
+ 
+ customers = customers + 3 // Example of addition: 11
+ println("$customers\n")
+ customers += 7            // Example of addition: 18
+ println("$customers\n")
+ customers -= 3            // Example of subtraction: 15
+ println("$customers\n")
+ customers *= 2            // Example of multiplication: 30
+ println("$customers\n")
+ customers /= 3            // Example of division: 10
+ println("$customers\n")
+11
+18
+15
+30
+10
+
+With this knowledge, you can declare variables and initialize them later. 
+Kotlin can manage this as long as variables are initialized before the first read.
+
+To declare a variable without initializing it, specify its type with :.
+
+For example:
+
+// Variable declared without initialization
+ var d: Int
+ // Variable initialized
+ d = 3
+ 
+ // Variable explicitly typed and initialized
+ val e: String = "hello"
+ 
+ var f: Double = 1.2
+ // Variables can be read because they have been initialized
+ println(d) // 3
+ println(e) // hello
+ println(f)
+3hello1.2
+
+
+-********EXERCISE******
+fun main() {
+    val a: Int = 1000
+    val b: String = "log message"
+    val c: Double = 3.14
+    val d: Long = 100_000_000_000_000
+    val e: Boolean = false
+    val f: Char = '\n'
+    println("$a\n$b\n$c\n$d\n$e\n$f\n")
+}
+
+main()

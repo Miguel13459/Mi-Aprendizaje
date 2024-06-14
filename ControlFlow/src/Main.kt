@@ -1,0 +1,4 @@
+fun main() {
+    Conditionals()
+    Loops()
+}
